@@ -22,8 +22,8 @@ Features:&#xD;
 Setup can either be configured in environment variables below, or skipped and setup in the web UI after first launch.</Overview>
   <Category>MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/trentferguson/homescreen-hero/main/homescreen-hero.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/trentferguson/homescreen-hero/main/homescreen-hero-icon.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/trentferguson/unraid-templates/main/homescreen-hero.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/trentferguson/unraid-templates/main/homescreen-hero-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
@@ -41,4 +41,5 @@ Setup can either be configured in environment variables below, or skipped and se
   <Config Name="Config File Path" Target="HOMESCREEN_HERO_CONFIG" Default="/data/config.yaml" Mode="" Description="Path to config file (default is recommended)" Type="Variable" Display="advanced" Required="false" Mask="false">/data/config.yaml</Config>
   <Config Name="Database Path" Target="HOMESCREEN_HERO_DB" Default="sqlite:////data/homescreen_hero.sqlite" Mode="" Description="Database path (default is recommended)" Type="Variable" Display="advanced" Required="false" Mask="false">sqlite:////data/homescreen_hero.sqlite</Config>
   <Config Name="Log Directory" Target="HOMESCREEN_HERO_LOG_DIR" Default="/data/logs" Mode="" Description="Directory for application logs (default is recommended)" Type="Variable" Display="advanced" Required="false" Mask="false">/data/logs</Config>
+
 </Container>
