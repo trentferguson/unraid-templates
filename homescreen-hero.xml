@@ -15,7 +15,7 @@ Features:&#xD;
 - First-Time Setup Wizard for easy configuration&#xD;
 - Automated Plex Collection Rotation on customizable schedules&#xD;
 - Intuitive Web Dashboard for managing collections&#xD;
-- 3rd Party Integrations (Trakt lists for IMDb, TMDb, TVDb)&#xD;
+- 3rd Party Integrations (Trakt, Letterboxd, MDBLists)&#xD;
 - Flexible YAML-based or Web UI configuration&#xD;
 - Built specifically for Plex Media Server&#xD;
 &#xD;
@@ -23,7 +23,7 @@ Setup can either be configured in environment variables below, or skipped and se
   <Category>MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/trentferguson/unraid-templates/main/homescreen-hero.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/trentferguson/unraid-templates/main/homescreen-hero-icon.png</Icon>
+  <Icon>https://raw.githubusercontent.com/trentferguson/unraid-templates/main/hh_icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
