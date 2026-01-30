@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/trentferguson/homescreen-hero/issues</Support>
+  <Support>https://forums.unraid.net/topic/196125-support-homescreen-hero-docker-repository/</Support>
   <Project>https://github.com/trentferguson/homescreen-hero</Project>
   <Overview>A self-hosted web app that keeps your Plex home screen fresh by automatically rotating collections (scheduled or manual) via a modern FastAPI + React dashboard.&#xD;
 &#xD;
@@ -47,3 +47,4 @@ Setup can either be configured in environment variables below, or skipped and se
   <Config Name="Database Path" Target="HOMESCREEN_HERO_DB" Default="sqlite:////data/homescreen_hero.sqlite" Mode="" Description="Database path (default is recommended)" Type="Variable" Display="advanced" Required="false" Mask="false">sqlite:////data/homescreen_hero.sqlite</Config>
   <Config Name="Log Directory" Target="HOMESCREEN_HERO_LOG_DIR" Default="/data/logs" Mode="" Description="Directory for application logs (default is recommended)" Type="Variable" Display="advanced" Required="false" Mask="false">/data/logs</Config>
 </Container>
+
